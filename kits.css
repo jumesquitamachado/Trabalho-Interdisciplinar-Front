@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFD9E1;
+    height: 110px;
+    text-align: center;
+    font-family: Montserrat;
+}
+#produtos{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1100px;
+}
+#pesquisar{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+#logo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+#carrinho{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 1%;
+    width: 70px;
+    height: 70px;
+}
+#perfil{
+    position: absolute;
+    margin-left: 1700px;
+    margin-top: 1.3%;
+    width: 60px;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    color: #D56B82;
+    font-size: 20px;
+}
+
+#div1{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFAF1;
+    color: #D56B82;
+    position: fixed;
+    width: 400px;
+    height: 150vh;
+    font-family: Montserrat;
+    text-align: center;
+}
+#div1 h1{
+    margin-top: 30%;
+    margin-bottom: 15%;
+}
+#div1 a{
+    margin-bottom: 5%;
+}
+
+#pdt{
+    font-size: 50px;
+    color: #D56B82;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 18%;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 1600px;
+    height: 220px;
+    background-color: #ffd9e1;
+    margin-left: 16%;
+    margin-bottom: -7px;
+    margin-top: 37%;
+    text-align: center;
+}
+.footer{
+    margin-left: 20%;
+    color: #d56b82;
+}
+.footer h3{
+    font-size: 33px;
+    margin-top: 12%;
+}
+.footer p{
+    font-size: 22px;
+    margin-top: 10%;
+}
+
+#sec img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    align-items: center;
+    margin-top: 100px;
+}
+.img1{
+    margin-left: 550px;
+}
+.imgs{
+    margin-left: 200px;
+}
+
+#legenda{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+}
+.p1{
+    margin-left: 550px;
+}
+.p2{
+    margin-left: 266px;
+}
+.p3{
+    margin-left: 266px;
+}
+
+#sec button{
+    color: #d56b82;
+    background-color: #FFD9E1;
+    padding: 2.5px 6px 2.5px 6px;
+    border-color: #FFD9E1;
+    align-items: center;
+}
+#sec button:hover{
+    color: #FFD9E1;
+    background-color: #D56B82;
+    border-color: #D56B82;
+}
+.b1{
+    margin-left: 718px;
+}
+.bs{
+    margin-left: 365px;
+}
+
+body {
+  --sb-track-color: #492110;
+  --sb-thumb-color: #d56b82;
+  --sb-size: 14px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 3px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
