@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
+    <title>Kita Cookies</title>
+</head>
+<body>
+    
+    <header class="header">
+        <li><a href="index.html"><img src="logo.png" alt="" id="logo"></a></li>
+        <li><a href="" id="pesquisar">Pesquisar</a></li>
+        <li><a href="produtos.html" id="produtos">PRODUTOS</a></li>
+        <li><a href="carrinho.html"><img src="carrinho.png" alt="" id="carrinho"></a></li>
+        <li><a href="perfil.html"><img src="perfil.png" alt="" id="perfil"></a></li>
+    </header>
+
+    <main class="container">
+
+        <div class="caixa-login">
+
+        <h1>Kita Cookies</h1>
+        <p>Bem-vindo(a)! Entre ou crie sua conta.</p>
+
+        <div class="botoes">
+            <button onclick="mostrarLogin()" id="btn-login">Entrar</button>
+            <button onclick="mostrarCadastro()" id="btn-cadastro">Cadastrar</button>
+        </div>
+
+        <form id="form-login">
+
+            <h2>Faça seu login</h2>
+            <input type="email" id="email-login" placeholder="Seu e-mail" required>
+            <input type="password" id="senha-login" placeholder="Sua senha" required>
+            <button type="submit" class="enviar">ENTRAR</button>
+
+        </form>
+
+        <form id="form-cadastro" class="escondido">
+
+            <h2>Crie sua conta</h2>
+            <input type="text" id="nome" placeholder="Seu nome" required>
+            <input type="email" id="email-cadastro" placeholder="Seu e-mail" required>
+            <input type="password" id="senha-cadastro" placeholder="Crie uma senha" minlength="6" required>
+            <button type="submit" class="enviar">Cadastrar</button>
+
+        </form>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <h3>Kita Cookies</h3>
+            <p>Prontos especialmente para você!</p>
+        </div>
+        <div class="footer">
+            <h3>Atendimento</h3>
+            <p>(31)99560-9417</p>
+            <p><a href="https://www.instagram.com/kitacookies_" target="_blank">@kitacookies_</a></p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
