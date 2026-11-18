@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFD9E1;
+    height: 110px;
+    text-align: center;
+    font-family: Montserrat;
+}
+#produtos{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 1100px;
+}
+#pesquisar{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+#logo{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+#carrinho{
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 1%;
+    width: 70px;
+    height: 70px;
+}
+#perfil{
+    position: absolute;
+    margin-left: 1700px;
+    margin-top: 1.3%;
+    width: 60px;
+    height: 60px;
+}
+a {
+    text-decoration: none;
+    color: #D56B82;
+    font-size: 20px;
+}
+
+.paginacarrinho {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    color: #D56B82;
+}
+
+.paginacarrinho h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.item-carrinho button,
+#finalizarcompra {
+    background-color: #D56B82;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item-carrinho button:hover,
+#finalizarcompra:hover {
+    opacity: 0.8;
+}
+
+.resumocarrinho img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: -920px;
+    margin-top: -0.8%;
+}
+.resumocarrinho {
+    text-align: right;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f9eeee;
+    border-radius: 10px;
+}
+
+#finalizarcompra {
+    margin-top: 15px;
+}

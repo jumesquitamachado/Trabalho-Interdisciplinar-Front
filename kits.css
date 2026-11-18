@@ -125,10 +125,10 @@ footer{
     margin-left: 550px;
 }
 .p2{
-    margin-left: 266px;
+    margin-left: 300px;
 }
 .p3{
-    margin-left: 266px;
+    margin-left: 370px;
 }
 
 #sec button{
@@ -137,6 +137,7 @@ footer{
     padding: 2.5px 6px 2.5px 6px;
     border-color: #FFD9E1;
     align-items: center;
+    margin-top: 0.5%;
 }
 #sec button:hover{
     color: #FFD9E1;
@@ -149,6 +150,25 @@ footer{
 .bs{
     margin-left: 365px;
 }
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-size: 13px;
+    margin-top: -0.9%;
+}
+.pr1{
+    margin-left: 745px;
+}
+.pr2{
+    margin-left: 395px;
+}
+.pr3{
+    margin-left: 395px;
+}
+
+
 
 body {
   --sb-track-color: #492110;

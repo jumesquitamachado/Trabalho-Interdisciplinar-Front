@@ -121,6 +121,7 @@ footer{
     padding: 2.5px 6px 2.5px 6px;
     border-color: #FFD9E1;
     align-items: center;
+    margin-top: 0.5%;
 }
 #sec button:hover{
     color: #FFD9E1;
@@ -142,10 +143,10 @@ footer{
     margin-left: 550px;
 }
 .k2{
-    margin-left: 266px;
+    margin-left: 300px;
 }
 .k3{
-    margin-left: 266px;
+    margin-left: 370px;
 }
 .r1{
     margin-left: 550px;
@@ -172,7 +173,7 @@ footer{
     margin-left: 235px;
 }
 .n3{
-    margin-left: 270px;
+    margin-left: 325px;
 }
 .c1{
     margin-left: 550px;
@@ -192,6 +193,72 @@ footer{
 .o3{
     margin-left: 310px;
 }
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-size: 13px;
+    margin-top: -0.9%;
+}
+.kp1{
+    margin-left: 745px;
+}
+.kp2{
+    margin-left: 395px;
+}
+.kp3{
+    margin-left: 395px;
+}
+.rp1{
+    margin-left: 750px;
+}
+.rp2{
+    margin-left: 400px;
+}
+.rp3{
+    margin-left: 400px;
+}
+.ep1{
+    margin-left: 750px;
+}
+.ep2{
+    margin-left: 400px;
+}
+.ep3{
+    margin-left: 400px;
+}
+.np1{
+    margin-left: 750px;
+}
+.np2{
+    margin-left: 400px;
+}
+.np3{
+    margin-left: 400px;
+}
+.cp1{
+    margin-left: 750px;
+}
+.cp2{
+    margin-left: 400px;
+}
+.cp3{
+    margin-left: 400px;
+}
+.op1{
+    margin-left: 750px;
+}
+.op2{
+    margin-left: 400px;
+}
+.op3{
+    margin-left: 400px;
+}
+
+
+
+
 
 body {
   --sb-track-color: #492110;

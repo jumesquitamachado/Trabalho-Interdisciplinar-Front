@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="produtos.css">
+    <script src="script.js" defer></script>
     <title>Kita Cookies</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
         <li><a href="index.html"><img src="logo.png" alt="" id="logo"></a></li>
         <li><a href="" id="pesquisar">Pesquisar</a></li>
         <li><a href="produtos.html" id="produtos">PRODUTOS</a></li>
-        <li><a href=""><img src="carrinho.png" alt="" id="carrinho"></a></li>
+        <li><a href="carrinho.html"><img src="carrinho.png" alt="" id="carrinho"></a></li>
         <li><a href=""><img src="perfil.png" alt="" id="perfil"></a></li>
     </header>
 
@@ -36,14 +37,19 @@
             <img src="kit3.jpeg" alt="" class="imgs">
         </div>
         <div id="legenda">
-            <p class="k1">kit kita cookies variados</p>
-            <p class="k2">kit kita 4,6 ou 8 cookies</p>
-            <p class="k3">kit kita mini cookies</p>
+            <p class="k1">kit cookies variados</p>
+            <p class="k2">kit cookies</p>
+            <p class="k3" class="btn-comprar" data-nome="kit mini cookies" data-preco="24.00">kit mini cookies</p>
+        </div>
+        <div class="preco">
+            <p class="kp1">R$ 25,00</p>
+            <p class="kp2">R$ 30,00</p>
+            <p class="kp3">R$ 24,00</p>
         </div>
         <div>
-            <button class="b1">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
+            <button class="b1 btn-comprar" data-nome="kit cookies variados" data-preco="25.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit cookies" data-preco="30.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit mini cookies" data-preco="24.00">COMPRAR</button>
         </div>
 
         <div>
@@ -54,12 +60,17 @@
         <div id="legenda">
             <p class="r1">mini cookie red velvet</p>
             <p class="r2">cookie red velvet</p>
-            <p class="r3">kit kita cookies red velet</p>
+            <p class="r3">kit cookies red velvet</p>
+        </div>
+        <div class="preco">
+            <p class="rp1">R$ 8,00</p>
+            <p class="rp2">R$ 10,00</p>
+            <p class="rp3">R$ 30,00</p>
         </div>
         <div>
-            <button class="b1">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
+            <button class="b1 btn-comprar" data-nome="mini cookie red velvet" data-preco="8.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="cookie red velvet" data-preco="10.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit cookies red velvet" data-preco="30.00">COMPRAR</button>
         </div>
 
         <div>
@@ -72,10 +83,15 @@
             <p class="e2">cookie eclipse</p>
             <p class="e3">kit kita cookies eclipse</p>
         </div>
+        <div class="preco">
+            <p class="ep1">R$ 8,00</p>
+            <p class="ep2">R$ 10,00</p>
+            <p class="ep3">R$ 30,00</p>
+        </div>
         <div>
-            <button class="b1">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
+            <button class="b1 btn-comprar" data-nome="mini cookie eclipse" data-preco="8.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="cookie eclipse" data-preco="10.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit cookies eclipse" data-preco="30.00">COMPRAR</button>
         </div>
 
         <div>
@@ -84,14 +100,19 @@
             <img src="ninut3.jpeg" alt="" class="imgs">
         </div>
         <div id="legenda">
-            <p class="n1">mini cookie ninho c/ nutella</p>
+            <p class="n1">mini ninho c/ nutella</p>
             <p class="n2">cookie ninho c/ nutella</p>
-            <p class="n3">kit kita cookies ninho c/ nutella</p>
+            <p class="n3">kit ninho c/ nutella</p>
+        </div>
+        <div class="preco">
+            <p class="np1">R$ 8,00</p>
+            <p class="np2">R$ 10,00</p>
+            <p class="np3">R$ 30,00</p>
         </div>
         <div>
-            <button class="b1">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
+            <button class="b1 btn-comprar" data-nome="mini ninho c/ nutella" data-preco="8.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="cookie ninho c/ nutella" data-preco="10.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit ninho c/ nutella" data-preco="30.00">COMPRAR</button>
         </div>
 
         <div>
@@ -102,12 +123,17 @@
         <div id="legenda">
             <p class="c1">mini cookie capuccino</p>
             <p class="c2">cookie capuccino</p>
-            <p class="c3">kit kita cookies capuccino</p>
+            <p class="c3">kit cookies capuccino</p>
+        </div>
+        <div class="preco">
+            <p class="cp1">R$ 8,00</p>
+            <p class="cp2">R$ 10,00</p>
+            <p class="cp3">R$ 30,00</p>
         </div>
         <div>
-            <button class="b1">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
+            <button class="b1 btn-comprar" data-nome="mini cookie capuccino" data-preco="8.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="cookie capuccino" data-preco="10.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit cookies capuccino" data-preco="30.00">COMPRAR</button>
         </div>
 
         <div>
@@ -118,12 +144,17 @@
         <div id="legenda">
             <p class="o1">mini cookie ovomaltine</p>
             <p class="o2">cookie ovomaltine</p>
-            <p class="o3">kit kita cookies ovomaltine</p>
+            <p class="o3">kit cookies ovomaltine</p>
+        </div>
+        <div class="preco">
+            <p class="op1">R$ 8,00</p>
+            <p class="op2">R$ 10,00</p>
+            <p class="op3">R$ 30,00</p>
         </div>
         <div>
-            <button class="b1">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
-            <button class="bs">COMPRAR</button>
+            <button class="b1 btn-comprar" data-nome="mini cookie ovomaltine" data-preco="8.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="cookie ovomaltine" data-preco="10.00">COMPRAR</button>
+            <button class="bs btn-comprar" data-nome="kit cookies ovomaltine" data-preco="30.00">COMPRAR</button>
         </div>
     </section>
 

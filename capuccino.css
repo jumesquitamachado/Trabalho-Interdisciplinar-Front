@@ -122,6 +122,7 @@ footer{
     padding: 2.5px 6px 2.5px 6px;
     border-color: #FFD9E1;
     align-items: center;
+    margin-top: 0.5%;
 }
 #sec button:hover{
     color: #FFD9E1;
@@ -147,8 +148,26 @@ footer{
     margin-left: 275px;
 }
 .p3{
-    margin-left: 320px;
+    margin-left: 315px;
 }
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    font-family: Montserrat;
+    font-size: 13px;
+    margin-top: -0.9%;
+}
+.pr1{
+    margin-left: 750px;
+}
+.pr2{
+    margin-left: 400px;
+}
+.pr3{
+    margin-left: 400px;
+}
+
 
 body {
   --sb-track-color: #492110;
