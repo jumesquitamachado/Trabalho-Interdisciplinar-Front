@@ -51,8 +51,6 @@ a {
     font-size: 20px;
 }
 
-/* ÁREA DE LOGIN */
-
 .container {
     display: flex;
     justify-content: center;
@@ -81,8 +79,6 @@ a {
     margin-bottom: 25px;
 }
 
-/* BOTÕES DE ALTERNÂNCIA */
-
 .botoes {
     display: flex;
     margin-bottom: 25px;
@@ -101,8 +97,6 @@ a {
     background-color: #D56B82;
     color: white;
 }
-
-/* FORMULÁRIOS */
 
 .caixa-login h2 {
     margin-bottom: 20px;
@@ -136,8 +130,6 @@ a {
 .enviar:hover {
     background-color: #bd536c;
 }
-
-/* ESCONDER FORMULÁRIO */
 
 .escondido {
     display: none;
